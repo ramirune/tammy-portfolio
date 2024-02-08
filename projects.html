@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Tammy's Projects</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="./index.html">
+          <img
+            src="./assets/images/logos/logoBlack.png"
+            alt="port-logo"
+            class="logo"
+          />
+        </a>
+        <a href="./index.html" class="nav__links nav__links">ABOUT ME</a>
+        <a href="./projects.html" class="nav__links--active">MY PROJECTS</a>
+      </nav>
+    </header>
+    <section class="body__container">
+      <h1>My Projects</h1>
+      <section class="projects__container">
+        <div class="project_tab-container">
+          <a
+            class="projects_items project_tab--1 project_tab--active"
+            data-tab="1"
+            >PokeDex</a
+          >
+          <a class="projects_items project_tab--2" data-tab="2">myFlix-API</a>
+          <a class="projects_items project_tab--3" data-tab="3"
+            >myFlix-React-Client</a
+          >
+          <a class="projects_items project_tab--4" data-tab="4">Meet</a>
+          <a class="projects_items project_tab--5" data-tab="5">Chat App</a>
+          <a class="projects_items project_tab--6" data-tab="6"
+            >myFlix-Angular-Client</a
+          >
+          <a class="projects_items project_tab--7" data-tab="7"
+            >Travel Website</a
+          >
+        </div>
+        <!-- Project#1 -->
+        <article
+          class="project__slide project__slide--1 project__slide--active"
+        >
+          <div class="project_display">
+            <img
+              src="assets/images/project/pokedex2.png"
+              alt="pokedex-project image"
+              class="img_box"
+            />
+            <section class="project_title">PokeDex</section>
+            <section class="project_details">
+              <p class="project_text">
+                A small web application built with HTML, CSS, Javascript,
+                Bootstrap and jQuery that display a list of items loaded from
+                external API(Pokemon API).
+              </p>
+              <strong>Tech Stack:</strong>
+              <p class="project_tech">HTML,CSS,JavaScript,Bootstrap,jQuery</p>
+              <section class="project_links">
+                <a href="https://github.com/ramirune/PokeDex" target="_blank">
+                  <button class="btn btn_pink">CODE</button>
+                </a>
+                <a href="https://ramirune.github.io/PokeDex/" target="_blank">
+                  <button class="btn btn_lightpink">LIVE</button>
+                </a>
+              </section>
+            </section>
+          </div>
+        </article>
+        <!-- Project#2 -->
+        <article class="project__slide project__slide--2">
+          <div class="project_display">
+            <img
+              src="./assets/images/project/postman.png"
+              alt="myFlix-API project image"
+              class="img_box"
+            />
+            <section class="project_title">myFlix-API</section>
+            <section class="project_details">
+              <p class="project_text">
+                The server-side component of a "movie" web application. The
+                application provides users with access to information about
+                different movies, directors, and genres. Users witll be able to
+                sign up, update their personal information and create a list of
+                their favorite movies.
+              </p>
+              <strong>Tech Stack:</strong>
+              <p class="project_tech">MongoDB, Express, Node.js, REST</p>
+              <section class="project_links">
+                <a href="https://github.com/ramirune/Movie-api" target="_blank">
+                  <button class="btn btn_pink">CODE</button>
+                </a>
+                <!-- <a href="" target="_blank">
+                  <button class="btn btn_lightpink">LIVE</button>
+                </a> -->
+              </section>
+            </section>
+          </div>
+        </article>
+        <!-- Project#3 -->
+        <article class="project__slide project__slide--3">
+          <div class="project_display">
+            <img
+              src="./assets/images/project/myflix-client.png"
+              alt="myFlix React project image"
+              class="img_box"
+            />
+            <section class="project_title">myFlix-React-Client</section>
+            <section class="project_details">
+              <p class="project_text">
+                This application is a single-page, client-side application of
+                myFlix based on its existing server-side code (REST API and
+                database). The users will be able to access information on
+                movies, directors, and genres. Also, the users will be able to
+                create a profile and can save data about their favorite movies.
+              </p>
+              <strong>Tech Stack:</strong>
+              <p class="project_tech">React, React Redux, Bootstrap</p>
+              <section class="project_links">
+                <a
+                  href="https://github.com/ramirune/myFlix-client"
+                  target="_blank"
+                >
+                  <button class="btn btn_pink">CODE</button>
+                </a>
+                <!-- <a href="" target="_blank">
+                    <button class="btn btn_lightpink">LIVE</button>
+                  </a> -->
+              </section>
+            </section>
+          </div>
+        </article>
+        <!-- Project#4 -->
+        <article class="project__slide project__slide--4">
+          <div class="project_display">
+            <img
+              src="./assets/images/project/meet2.png"
+              alt="Meet App project image"
+              class="img_box"
+            />
+            <section class="project_title">Meet</section>
+            <section class="project_details">
+              <p class="project_text">
+                Meet is a serverless, progressive web application(PWA) built
+                with React using test-driven development(TDD) technique. The
+                application uses the Google Calendar API to fetch upcoming
+                events.
+              </p>
+              <strong>Tech Stack:</strong>
+              <p class="project_tech">React, TDD technique</p>
+              <section class="project_links">
+                <a href="https://github.com/ramirune/meet" target="_blank">
+                  <button class="btn btn_pink">CODE</button>
+                </a>
+                <!-- <a href="https://ramirune.github.io/meet/" target="_blank">
+                  <button class="btn btn_lightpink">LIVE</button>
+                </a> -->
+              </section>
+            </section>
+          </div>
+        </article>
+        <!-- Project#5 -->
+        <article class="project__slide project__slide--5">
+          <div class="project_display">
+            <img
+              src="./assets/images/project/chatapp.png"
+              alt="Chat App project image"
+              class="img_box"
+            />
+            <section class="project_title">Chat App</section>
+            <section class="project_details">
+              <p class="project_text">
+                Chat application for mobile devices built with React Native. The
+                app provides users with a chat interface and options to share
+                images and their locations.
+              </p>
+              <strong>Tech Stack:</strong>
+              <p class="project_tech">
+                React Native, Expo, Google Firestore Database, Google Firebase
+                authentication, Firebase Cloud Storage, Gifted Chat library
+              </p>
+              <section class="project_links">
+                <a href="https://github.com/ramirune/Chat" target="_blank">
+                  <button class="btn btn_pink">CODE</button>
+                </a>
+                <!-- <a href="" target="_blank">
+                  <button class="btn btn_lightpink">LIVE</button>
+                </a> -->
+              </section>
+            </section>
+          </div>
+        </article>
+        <!-- Project#6 -->
+        <article class="project__slide project__slide--6">
+          <div class="project_display">
+            <img
+              src="./assets/images/project/myflix-angular1.png"
+              alt="myFlix-Angular project image"
+              class="img_box"
+            />
+            <section class="project_title">myFlix-Angular-Client</section>
+            <section class="project_details">
+              <p class="project_text">
+                This application is the cliet-side using Angular for an
+                application called myFlix based on its existing server-side code
+                (REST-API and database), with supporting documentation.
+              </p>
+              <strong>Tech Stack:</strong>
+              <p class="project_tech">
+                Angular, Angular-materials, Heroku, MongoDB
+              </p>
+              <section class="project_links">
+                <a
+                  href="https://github.com/ramirune/myFlix-Angular-app"
+                  target="_blank"
+                >
+                  <button class="btn btn_pink">CODE</button>
+                </a>
+                <!-- <a
+                  href="https://ramirune.github.io/myFlix-Angular-app/welcome"
+                  target="_blank"
+                >
+                  <button class="btn btn_lightpink">LIVE</button>
+                </a> -->
+                <a href="case.html" target="_blank">
+                  <button class="btn btn_pink">Case study</button>
+                </a>
+              </section>
+            </section>
+          </div>
+        </article>
+        <!-- Project#7 -->
+        <article class="project__slide project__slide--7">
+          <div class="project_display">
+            <img
+              src="./assets/images/project/travel-website.png"
+              alt="Travel website image"
+              class="img_box"
+            />
+            <section class="project_title">Travel Website</section>
+            <section class="project_details">
+              <p class="project_text">
+                This project is a group project from KreativStorm training
+                cource. We created a website with only HTML and CSS.
+              </p>
+              <strong>Tech Stack:</strong>
+              <p class="project_tech">HTML, CSS</p>
+              <section class="project_links">
+                <a href="" target="_blank">
+                  <button class="btn btn_pink">CODE</button>
+                </a>
+                <a href="" target="_blank">
+                  <button class="btn btn_lightpink">LIVE</button>
+                </a>
+              </section>
+            </section>
+          </div>
+        </article>
+      </section>
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <section class="contact_container">
+          <a href="#" target="_blank">
+            <img
+              class="contact_icons"
+              src="assets/images/logos/email.png"
+              alt="email"
+            />
+          </a>
+          <a href="#" target="_blank">
+            <img
+              class="contact_icons"
+              src="assets/images/logos/github_icon.png"
+              alt="github"
+            />
+          </a>
+          <a href="#" target="_blank">
+            <img
+              class="contact_icons"
+              src="assets/images/logos/twitter_icon.png"
+              alt="twitter"
+            />
+          </a>
+          <a href="#" target="_blank">
+            <img
+              class="contact_icons"
+              src="assets/images/logos/linkedin_icon.png"
+              alt="linkedin"
+            />
+          </a>
+          <a href="#" target="_blank">
+            <img
+              class="contact_icons"
+              src="assets/images/logos/xing_icon.png"
+              alt="xing"
+            />
+          </a>
+        </section>
+      </section>
+    </section>
+    <footer>
+        <p>Copyright ©2022 Timpiga Arnold</p>
+      <footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
